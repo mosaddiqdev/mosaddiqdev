@@ -1,0 +1,217 @@
+{
+  "meta": {
+    "title": "mosaddiq — Frontend Developer",
+    "description": "Frontend developer creating psychology-informed digital experiences with React, TypeScript, and thoughtful design.",
+    "author": "mosaddiq",
+    "keywords": [
+      "Frontend Developer",
+      "React",
+      "TypeScript",
+      "Psychology-Informed Design",
+      "Web Development",
+      "UI/UX"
+    ]
+  },
+  "navigation": {
+    "brand": "mosaddiq",
+    "links": [
+      { "text": "Work", "href": "#work", "section": "work" },
+      { "text": "About", "href": "#about", "section": "about" },
+      { "text": "Contact", "href": "#contact", "section": "contact" }
+    ]
+  },
+  "hero": {
+    "name": "mosaddiq",
+    "title": "Frontend Developer &",
+    "subtitle": "Psychology-Focused Designer",
+    "description": "I craft digital experiences that reduce cognitive load and improve user workflows. With 2 years of focused development, I build web applications where psychology meets modern technology.",
+    "profileImage": {
+      "default": "src/assets/hero.png",
+      "hover": "src/assets/hero-alt.png",
+      "alt": "mosaddiq"
+    },
+    "cta": {
+      "primary": "View My Work",
+      "secondary": "Get in touch"
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "story": [
+      {
+        "paragraph": "Two years ago, I made a pivotal decision: <em>\"Instead of consuming digital content, why not create meaningful experiences for others?\"</em> This shift in mindset launched my journey into frontend development with a unique focus on user psychology."
+      },
+      {
+        "paragraph": "I began by studying cognitive load theory and user behavior patterns, then learned to implement these insights through modern web technologies. My approach combines technical proficiency with psychological principles—creating interfaces that feel intuitive rather than overwhelming."
+      },
+      {
+        "paragraph": "Today, I specialize in <strong class=\"text-sage-400\">psychology-informed web development</strong>—building applications where every interaction is designed to reduce mental effort and enhance user satisfaction. My work focuses on the intersection of human cognition and digital interfaces."
+      }
+    ],
+    "skills": {
+      "title": "Skills & Technologies"
+    },
+    "currentStatus": {
+      "title": "Currently",
+      "items": [
+        "Developing advanced React applications with TypeScript",
+        "Exploring Next.js server-side rendering and optimization techniques",
+        "Researching cognitive psychology applications in interface design",
+        "Open to freelance projects and collaboration opportunities"
+      ]
+    }
+  },
+  "work": {
+    "title": "Selected Work",
+    "subtitle": "Projects that showcase my approach to psychology-informed development"
+  },
+  "contact": {
+    "title": "Let's Work Together",
+    "description": "I'm passionate about creating digital experiences that genuinely improve people's daily interactions with technology. Always excited to discuss projects where psychology meets innovative development.",
+    "lookingFor": {
+      "title": "What I'm Looking For",
+      "items": [
+        "Frontend development roles focusing on user experience and interface psychology",
+        "Remote-first teams building products that solve real human problems",
+        "Collaborative environments where technical skills and user empathy are equally valued"
+      ]
+    },
+    "getInTouch": {
+      "title": "Get In Touch"
+    },
+    "cta": {
+      "primary": "Send Email",
+      "secondary": "View GitHub"
+    },
+    "links": {
+      "email": "mosaddiqdev@gmail.com",
+      "github": "https://github.com/mosaddiqdev"
+    },
+    "location": {
+      "location": "Assam, India",
+      "availability": "Available for freelance projects immediately, open to full-time opportunities",
+      "timezone": "IST (UTC+5:30)"
+    }
+  },
+  "projects": {
+    "readme": "Project display logic: If 'preview_image' field exists, show the image with filter effects. If 'preview_image' is missing or empty, show the 'highlights' list instead. This allows flexible content display based on available assets.",
+    "items": [
+      {
+        "id": "scrollmuse",
+        "title": "ScrollMuse",
+        "subtitle": "Infinite Wisdom PWA",
+        "description": "A mindful content consumption platform designed to reduce information overload. Built with React 19 and TypeScript, featuring intelligent content delivery algorithms and progressive web app capabilities for seamless offline access.",
+        "year": "2025",
+        "status": "Live",
+        "technologies": ["React 19", "TypeScript", "PWA", "Vite", "Vercel"],
+        "links": {
+          "live": "https://scrollmuse.vercel.app/",
+          "github": "https://github.com/mosaddiqdev/scrollmuse"
+        },
+        "preview_image": "src/assets/scrollmuse-preview.png",
+        "highlights": [
+          "Intelligent content delivery system preventing cognitive overload",
+          "Performance-optimized infinite scroll maintaining 60fps on all devices",
+          "Progressive Web App architecture enabling offline content access",
+          "Minimalist visual design reducing distractions and mental fatigue",
+          "Strategic typography and spacing based on reading comprehension research"
+        ],
+        "impact": "Transforms overwhelming content consumption into a mindful, sustainable experience through evidence-based UX design"
+      },
+      {
+        "id": "typ1ng",
+        "title": "typ1ng",
+        "subtitle": "Smart Adaptive Typing Test",
+        "description": "An adaptive typing assessment platform that analyzes user performance patterns to optimize skill development. Features machine learning-inspired algorithms, real-time analytics, and immersive audio feedback through Web Audio API implementation.",
+        "year": "2025",
+        "status": "Live",
+        "technologies": [
+          "Vanilla JavaScript",
+          "Web Audio API",
+          "ES6 Modules",
+          "CSS3"
+        ],
+        "links": {
+          "live": "https://mosaddiqdev.github.io/typ1ng",
+          "github": "https://github.com/mosaddiqdev/typ1ng"
+        },
+        "preview_image": "src/assets/typ1ng-preview.png",
+        "highlights": [
+          "Dynamic difficulty adjustment based on real-time performance analysis",
+          "Comprehensive analytics dashboard tracking multiple performance metrics",
+          "Custom audio engine providing contextual feedback for enhanced learning",
+          "Extensive vocabulary database with intelligent content filtering",
+          "Distraction-free interface designed for sustained focus and flow state"
+        ],
+        "impact": "Revolutionizes typing skill development by replacing static tests with personalized, adaptive learning experiences"
+      },
+      {
+        "id": "clipzinc",
+        "title": "ClipZinc",
+        "subtitle": "Lightning-Fast Clipboard Manager",
+        "description": "A productivity-focused Chrome extension that extends system clipboard capabilities with intelligent history management and power-user features. Built with modern Manifest V3 architecture, prioritizing user privacy through local-only data storage.",
+        "year": "2025",
+        "status": "Development",
+        "technologies": [
+          "Chrome Extension",
+          "Manifest V3",
+          "Service Workers",
+          "JavaScript"
+        ],
+        "links": {
+          "github": "https://github.com/mosaddiqdev/clipzinc"
+        },
+        "highlights": [
+          "Unlimited clipboard history transcending operating system limitations",
+          "Comprehensive keyboard shortcut system for workflow acceleration",
+          "Intelligent notification system with contextual feedback",
+          "Modern browser extension architecture ensuring future compatibility",
+          "Privacy-first design with zero data transmission or cloud dependency"
+        ],
+        "impact": "Eliminates productivity bottlenecks by seamlessly extending native system capabilities while maintaining complete user privacy"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "JavaScript",
+      "description": "ES6+, Advanced concepts, Async programming",
+      "category": "core"
+    },
+    {
+      "name": "TypeScript",
+      "description": "Type safety, Interface design, Generic types",
+      "category": "core"
+    },
+    {
+      "name": "React",
+      "description": "Hooks, Context, Performance optimization",
+      "category": "framework"
+    },
+    {
+      "name": "Next.js",
+      "description": "Server-side rendering, API routes, Performance optimization",
+      "category": "framework"
+    },
+    {
+      "name": "HTML5",
+      "description": "Semantic markup, Accessibility",
+      "category": "foundation"
+    },
+    {
+      "name": "CSS3",
+      "description": "Modern CSS, Grid, Flexbox, Animations",
+      "category": "foundation"
+    },
+    {
+      "name": "Psychology-Informed Design",
+      "description": "Cognitive load theory application",
+      "category": "design"
+    },
+    {
+      "name": "Web APIs",
+      "description": "Audio, Storage, Service Workers, Clipboard",
+      "category": "advanced"
+    }
+  ]
+}

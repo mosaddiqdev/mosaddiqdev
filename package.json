@@ -1,0 +1,50 @@
+{
+  "name": "mosaddiq-portfolio",
+  "version": "1.0.0",
+  "description": "A minimalist, psychology-informed portfolio website showcasing frontend development skills and design philosophy.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx live-server .",
+    "preview": "npx serve . -p 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mosaddiqdev/mosaddiqdev.git"
+  },
+  "keywords": [
+    "portfolio",
+    "frontend",
+    "developer",
+    "psychology-informed",
+    "minimalist",
+    "web-development",
+    "html",
+    "css",
+    "javascript",
+    "responsive-design"
+  ],
+  "author": {
+    "name": "mosaddiq",
+    "email": "mosaddiqdev@gmail.com",
+    "url": "https://github.com/mosaddiqdev"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mosaddiqdev/mosaddiqdev/issues"
+  },
+  "homepage": "https://mosaddiqdev.github.io/mosaddiqdev",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

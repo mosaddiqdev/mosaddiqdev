@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mosaddiq — Frontend Developer</title>
+    <meta
+      name="description"
+      content="Frontend developer creating psychology-informed digital experiences with React, TypeScript, and thoughtful design."
+    />
+    <meta
+      name="keywords"
+      content="Frontend Developer, React, TypeScript, Psychology-Informed Design, Web Development, UI/UX, mosaddiq"
+    />
+    <meta name="author" content="mosaddiq" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="mosaddiq — Frontend Developer" />
+    <meta
+      property="og:description"
+      content="Frontend developer creating psychology-informed digital experiences with React, TypeScript, and thoughtful design."
+    />
+    <meta
+      property="og:url"
+      content="https://mosaddiqdev.github.io/mosaddiqdev/"
+    />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="mosaddiq — Frontend Developer" />
+    <meta
+      name="twitter:description"
+      content="Frontend developer creating psychology-informed digital experiences with React, TypeScript, and thoughtful design."
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="icon" type="image/png" href="favicon.svg" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              zinc: {
+                50: "#fafafa",
+                100: "#f4f4f5",
+                200: "#e4e4e7",
+                300: "#d4d4d8",
+                400: "#a1a1aa",
+                500: "#71717a",
+                600: "#52525b",
+                700: "#3f3f46",
+                800: "#27272a",
+                900: "#18181b",
+                950: "#09090b",
+              },
+              sage: {
+                400: "#10d9a3",
+                500: "#0ecf97",
+                600: "#0bb885",
+              },
+            },
+            fontFamily: {
+              sans: ["Inter", "system-ui", "sans-serif"],
+              serif: ["Crimson Pro", "serif"],
+            },
+            fontSize: {
+              xs: ["0.75rem", { lineHeight: "1.6" }],
+              sm: ["0.875rem", { lineHeight: "1.7" }],
+              base: ["1rem", { lineHeight: "1.8" }],
+              lg: ["1.125rem", { lineHeight: "1.8" }],
+              xl: ["1.25rem", { lineHeight: "1.7" }],
+              "2xl": ["1.5rem", { lineHeight: "1.6" }],
+              "3xl": ["1.875rem", { lineHeight: "1.5" }],
+              "4xl": ["2.25rem", { lineHeight: "1.4" }],
+              "5xl": ["3rem", { lineHeight: "1.3" }],
+            },
+            maxWidth: {
+              content: "680px",
+            },
+            spacing: {
+              18: "4.5rem",
+              22: "5.5rem",
+              26: "6.5rem",
+              30: "7.5rem",
+            },
+          },
+        },
+      };
+    </script>
+
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="bg-zinc-950 text-zinc-100 font-sans">
+    <div
+      id="preloader"
+      class="fixed inset-0 bg-zinc-950 z-[9999] flex flex-col items-center justify-center"
+    >
+      <div class="flex space-x-2 mb-4">
+        <div
+          class="w-2 h-2 bg-sage-400 rounded-full animate-pulse"
+          style="animation-delay: 0s"
+        ></div>
+        <div
+          class="w-2 h-2 bg-sage-400 rounded-full animate-pulse"
+          style="animation-delay: 0.2s"
+        ></div>
+        <div
+          class="w-2 h-2 bg-sage-400 rounded-full animate-pulse"
+          style="animation-delay: 0.4s"
+        ></div>
+      </div>
+      <p class="text-zinc-500 text-sm font-serif italic">
+        Loading experience...
+      </p>
+    </div>
+
+    <nav class="navbar" id="navbar">
+      <div class="nav-content">
+        <a href="#hero" class="nav-brand nav-transition focus" id="nav-brand">
+        </a>
+
+        <div class="nav-links desktop-nav" id="nav-links">
+          <div class="nav-indicator" id="nav-indicator"></div>
+        </div>
+        <div class="mobile-nav">
+          <button
+            class="hamburger-menu"
+            id="hamburger-menu"
+            aria-label="Toggle navigation menu"
+          >
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </button>
+        </div>
+      </div>
+      <div class="mobile-nav-menu" id="mobile-nav-menu">
+        <div class="mobile-nav-links" id="mobile-nav-links"></div>
+      </div>
+    </nav>
+
+    <main class="max-w-content mx-auto px-8">
+      <section
+        id="hero"
+        class="pt-32 pb-22 min-h-screen flex flex-col justify-center"
+      >
+        <div class="fade-in">
+          <div class="mb-8">
+            <div class="profile-container" id="profile-container">
+              <div class="profile-image">
+                <img id="profile-image-main" class="profile-image-main" />
+                <img id="profile-image-hover" class="profile-image-hover" />
+              </div>
+            </div>
+          </div>
+
+          <h1 class="font-serif text-5xl font-medium mb-6 leading-tight"></h1>
+
+          <p
+            class="text-xl text-zinc-300 mb-10 leading-relaxed max-w-lg text-hover"
+          ></p>
+
+          <div class="flex items-center space-x-6">
+            <a
+              href="#work"
+              class="btn-primary px-8 py-4 rounded-lg font-medium btn-hover btn-lift btn-bounce btn-focus btn-transition smooth focus lift"
+              id="primary-btn"
+            >
+            </a>
+            <a
+              href="mailto:mosaddiqdev@gmail.com"
+              class="text-zinc-400 hover:text-sage-400 link-underline arrow-animate link-hover link-transition focus"
+            >
+              <span class="arrow">→</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="pb-22">
+        <h2
+          class="font-serif text-3xl font-medium mb-16 fade-in delay-1 text-hover"
+        ></h2>
+
+        <div class="space-y-12" id="projects-container"></div>
+      </section>
+
+      <section id="about" class="pb-22">
+        <h2
+          class="font-serif text-3xl font-medium mb-16 fade-in delay-1 text-hover"
+        ></h2>
+
+        <div class="space-y-8 fade-in delay-2">
+          <p class="text-lg text-zinc-300 leading-relaxed text-hover"></p>
+
+          <p class="text-lg text-zinc-300 leading-relaxed text-hover"></p>
+
+          <p class="text-lg text-zinc-300 leading-relaxed text-hover"></p>
+
+          <div class="pt-8 border-t border-zinc-800">
+            <h3 class="font-serif text-xl font-medium mb-6 text-sage-400"></h3>
+            <div class="grid grid-cols-2 gap-4" id="skills-container"></div>
+          </div>
+
+          <div class="pt-8">
+            <h3 class="font-serif text-xl font-medium mb-4 text-sage-400"></h3>
+            <ul class="space-y-2 text-zinc-400" id="current-status-list"></ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="pb-22">
+        <h2 class="font-serif text-3xl font-medium mb-8 fade-in delay-1"></h2>
+
+        <div class="fade-in delay-2">
+          <p class="text-xl text-zinc-300 mb-12 leading-relaxed"></p>
+
+          <div class="space-y-8">
+            <div>
+              <h3
+                class="font-serif text-xl font-medium mb-4 text-sage-400"
+              ></h3>
+              <ul class="space-y-3 text-zinc-400" id="looking-for-list"></ul>
+            </div>
+
+            <div>
+              <h3
+                class="font-serif text-xl font-medium mb-6 text-sage-400"
+              ></h3>
+              <div class="flex flex-col sm:flex-row gap-4">
+                <a
+                  href="mailto:mosaddiqdev@gmail.com"
+                  class="btn-primary px-8 py-4 rounded-lg font-medium text-center focus-ring btn-hover btn-lift btn-bounce btn-focus btn-transition smooth focus lift"
+                  id="contact-btn"
+                >
+                </a>
+                <a
+                  href="https://github.com/mosaddiqdev"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-secondary px-8 py-4 rounded-lg font-medium text-center focus-ring btn-transition focus"
+                >
+                </a>
+              </div>
+
+              <div
+                class="mt-8 text-sm text-zinc-500 space-y-1"
+                id="location-info"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="src/js/script.js"></script>
+  </body>
+</html>

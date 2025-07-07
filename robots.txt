@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://mosaddiqdev.github.io/mosaddiqdev/sitemap.xml
+
+# Disallow unnecessary files
+Disallow: /src/data/
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /*.json$
